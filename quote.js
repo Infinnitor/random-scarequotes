@@ -50,16 +50,16 @@
 
 			let n = 0;
 			for (const w in wordList) {
-				n += wordList[w].startsWith('\"') ? 1 : 0;
+				n += wordList[w].startsWith(QUOTES[0]) ? 1 : 0;
 			}
-			if (n >= wordList.length) {
+			if (!(n < wordList.length)) {
 				return wordList;
 			}
 
 			let choice = randint(wordList.length);
 			let changeWord = wordList[choice];
 
-			if (changeWord.length <= MIN_WORDLEN && changeWord.startsWith('\"') && !IGNORE.contains(changeWord)) {
+			if (changeWord.length <= MIN_WORDLEN && changeWord.startsWith(QUOTES[0]) && IGNORE.contains(changeWord)) {
 				try {
 					return addScareQuote(wordList);
 				}

@@ -6,3 +6,9 @@ Funny Javascript bookmarklet to add scare quotes to random innerText on webpages
 - Create a new bookmark
 - Paste the minified.js code into the URL section of the new bookmark
 - When you want to run the code, just click the bookmark
+
+# other way
+You can also download example.html and drag the link in there to the bookmarks bar
+
+# yeah
+report all the bugs that ye find, this project isn't very good and also hasn't been tested much
