@@ -16,6 +16,8 @@
 		'h5',
 		'h6',
 		'button',
+		'ul',
+		'ol',
 	];
 
 	const IGNORE = [

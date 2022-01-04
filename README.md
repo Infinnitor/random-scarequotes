@@ -12,3 +12,4 @@ You can also download example.html and drag the link in there to the bookmarks b
 
 # yeah
 report all the bugs that ye find, this project isn't very good and also hasn't been tested much
+known bug is that it breaks links in innerText and also lists, so "yeah"
